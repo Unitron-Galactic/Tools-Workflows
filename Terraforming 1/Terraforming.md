@@ -162,7 +162,7 @@ Depending upon your desired terrain height MILSGen may generate files with many 
 The reduction is well worth the time. The initial piece count on the 520x520x180p CERES Map was above 467k pieces which could be reduced to about 141k! (Reduction from 21.5MB file size to 6.5MB)
 
 ### Color Change
-MILSGen only uses green pieces. Use your LCAD-Tool to change the color. If you generate a very large terrain you may use a text editor do globally change all second values in each line from 10 (green) to your desired one. ([LDR Colour Definitions](https://www.ldraw.org/article/547.html) may be helpful for this.)
+MILSGen only uses green pieces. Use your LCAD-Tool to change the color. If you generate a very large terrain you may use a text editor to globally change all second values in each line from 10 (green) to your desired one. ([LDR Colour Definitions](https://www.ldraw.org/article/547.html) may be helpful for this.)
 
 ### General
 
