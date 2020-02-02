@@ -7,11 +7,11 @@ These instructions guide you from gathering terrain data to the generation of an
 ## Table of contents
 
 1. [Requirements](#requirements)
-2. [Data Sources](#datasources)
-3. [Heightmap Generation](#heightmap)
-4. [Module Generation](#milsgen)
-5. [Module Stitching](#milsstitcher)
-6. [Render Optimisation ](#optimisation)
+2. [Data Sources](#data-sources)
+3. [Heightmap Generation](#heightmap-generation)
+4. [Module Generation](#module-generation)
+5. [Module Stitching](#module-stitching)
+6. [Render Optimisation](#render-optimisation)
 7. [F.A.Q.](#faq)
 
 ## Requirements <a name=„requirements“></a>
