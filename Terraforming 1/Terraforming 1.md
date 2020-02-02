@@ -95,7 +95,7 @@ If you have enabled substructure, you can choose to add edge identifiers which a
 ## Module Stitching
 
 After running MILSGen you are left with a folder full of module files. Stitching them together is tedious especially with larger terrain. Manually combining dozens of Modules is not an option here.
-MILSStitcher will help you piece together all .ldr modules to one single .mpd file.
+[MILSStitcher](https://github.com/Unitron-Galactic/Tools-Workflows/tree/master/Terraforming%201/Toolset/MilsStitcher) will help you piece together all .ldr modules to one single .mpd file.
 
 For the script to run, make sure you have PHP set up on your machine. 
 
