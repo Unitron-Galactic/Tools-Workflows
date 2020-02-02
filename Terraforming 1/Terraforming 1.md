@@ -168,7 +168,7 @@ MILSGen only uses green pieces. Use your LCAD-Tool to change the color. If you g
 
 Delete Modules from the .mpd file that won’t show in your Render.
 
-![Ceres Optimized](https://github.com/Unitron-Galactic/Tools-Workflows/blob/master/Terraforming%201/images/Optimised_Ceres_Map.pnp)
+![Ceres Optimized](https://github.com/Unitron-Galactic/Tools-Workflows/blob/master/Terraforming%201/images/Optimised_Ceres_Map.png)
 
 
 ## F.A.Q.
