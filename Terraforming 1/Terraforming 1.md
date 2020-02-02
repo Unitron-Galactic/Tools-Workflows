@@ -1,6 +1,6 @@
 # Terraforming with MilsGen & MilsStitcher
 
-![Intro Image](https://github.com/Unitron-Galactic/Tools-Workflows/blob/master/Terraforming%201/images/Terraforming_Preview.jpg „Benny speeding over a Ceres“)
+![Intro Image](https://github.com/Unitron-Galactic/Tools-Workflows/blob/master/Terraforming%201/images/Terraforming_Preview.jpg)
 
 These instructions guide you from gathering terrain data to the generation of an appropriate LEGO Model.
 
@@ -72,7 +72,7 @@ Depending upon the software you choose there are slightly different ways to achi
 * [Blender - Youtube Tutorial 2](https://www.youtube.com/watch?v=AtkU2aaaCfU)
 
 
-![Sample Heightmap](https://github.com/Unitron-Galactic/Blueprints/blob/master/Terrain/Other/Ceres_1_NorthWest/depthmaps/Ceres1_depthmap_520x520.png „A sample heightmap generated from Ceres“)
+![Sample Heightmap](https://github.com/Unitron-Galactic/Blueprints/blob/master/Terrain/Other/Ceres_1_NorthWest/depthmaps/Ceres1_depthmap_520x520.png)
 A sample heightmap generated from Ceres.
 
 ## Module Generation <a name=„milsgen“></a>
