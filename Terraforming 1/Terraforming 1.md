@@ -61,7 +61,7 @@ It is also possible to generate non existent landscapes.
 
 ## Heightmap Generation <a name=„heightmap“/>
 
-![Sample Heightmap generated from the iconic Moon Baseplate](https://github.com/Unitron-Galactic/Blueprints/blob/master/Terrain/Tiles/Moon_Baseplate/depthmaps/Baseplate_1_192.png) In order to propperly generate your Model you need the height data of your terrain. A heightmap or heightfield is a raster image used mainly as Discrete Global Grid. Each pixel store values, such as surface elevation data, for display in 3D computer graphics. A heightmap contains one channel interpreted as a distance of displacement or "height" from the "floor" of a surface and sometimes visualized as luma of a grayscale image, with black representing minimum height and white representing maximum height.
+![Sample Heightmap generated from the iconic Moon Baseplate](https://github.com/Unitron-Galactic/Blueprints/blob/master/Terrain/Tiles/Moon_Baseplate/depthmaps/Baseplate_1_192.png){:style="float: left;margin-right: 1em"} In order to propperly generate your Model you need the height data of your terrain. A heightmap or heightfield is a raster image used mainly as Discrete Global Grid. Each pixel store values, such as surface elevation data, for display in 3D computer graphics. A heightmap contains one channel interpreted as a distance of displacement or "height" from the "floor" of a surface and sometimes visualized as luma of a grayscale image, with black representing minimum height and white representing maximum height.
 
 The basic workflow positions an orthogonal camera on top of the terrain that’s only fed from the Z Buffer of the 3D model.
 Depending upon the software you choose there are slightly different ways to achieve this:
