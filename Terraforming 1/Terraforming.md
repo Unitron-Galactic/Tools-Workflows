@@ -184,8 +184,8 @@ Delete Modules from the .mpd file that won’t show in your Render.
 #### Why php for the Stitcher?
 This was basically just a small thing I wrote late at night at a fast-paced weekend. As php is one of my most used languages it was used to get this done.
 
-#### MilsGen won’t generate my large Landscape, why?
-1. Make sure the filename contains only ASCII Symbols. Milsgen does not like whitespaces and funky characters.
+#### MilsGen won’t generate my Landscape, why?
+1. Make sure neither filename nor file path contains only ASCII Symbols. MilsGen does not like whitespaces and funky characters. 
 2. Your landscape is too big. MilsGen only generates landscapes up to 832x3168 studs/pixels (A1 to Z99).
 
 #### My Editor can’t open the large .mpd
