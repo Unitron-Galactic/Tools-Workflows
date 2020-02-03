@@ -57,7 +57,15 @@ An incomplete list:
 
 It is also possible to generate non-existent landscapes.
 
-* [Terragen](https://planetside.co.uk/)
+* [Terragen*](https://planetside.co.uk/)
+* [World Creator*](https://www.world-creator.com/)
+
+*Paid Option
+
+#### Additional Information/Software
+
+* [Artificial Terrain Generation](http://vterrain.org/Elevation/Artificial/)
+* [Artificial Terrain Tools & Software Packages](http://vterrain.org/Packages/Artificial/)
 
 ## Heightmap Generation
 
@@ -189,8 +197,8 @@ This was basically just a small thing I wrote late at night at a fast-paced week
 Sure, fork the code and make a request! Help is always welcome
 
 #### Where can I show my virtual support?
-You may follow Unitron Galactic on [Instagram](https://www.instagram.com/unitron_galactic/) or [Flickr](https://www.flickr.com/people/185934740@N06/).
+You may follow Unitron Galactic on [Instagram](https://www.instagram.com/unitron_galactic/) or [Flickr](https://www.flickr.com/people/185934740@N06/). Occasionally you can also upvote stuff on [reddit](https://www.reddit.com/user/Unitron_Galactic).
 
 #### Will there be more (and better) terraforming tools?
-Maybe. The whole thing sparked my interest and there are a lot of things that could be improved and a lot of features a real terrain generator should have that this workflow can’t cover. Don’t expect anything soon.
+Maybe. The whole thing sparked my interest and there are a lot of things that could be improved and a lot of features a real terrain generator should have that this workflow can’t cover. It’s basically an empty playing field, waiting to be explored. But don’t expect anything soon.
 
