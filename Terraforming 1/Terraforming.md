@@ -75,11 +75,11 @@ Depending upon the software you choose there are slightly different ways to achi
 
 ## Module Generation
 
-To generate terrain modules from your hightmap use [MILSGen](http://www.legoism.info/2013/12/milsgen.html) by [Oton/Legoism](www.legoism.info).
+To generate terrain modules from your hightmap use [MILSGen](http://www.legoism.info/2013/12/milsgen.html) by [Oton/Legoism](http://www.legoism.info).
 
 **Note:** If you generate terrain only for rendering, disable Substructure and skip step 5.
 
-1. Modify the image size of the heightmap to multiples of 32x32pixels. It should be in PNG, BMP or JPEG format, 24-bit color (i.e. not paletted), and at least 32x32 pixels in size. If the dimensions are not multiples of 32, MilsGen will automatically crop the available area to the top left corner. 
+1. Modify the image size of the heightmap to multiples of 32x32pixels. It should be in PNG, BMP or JPEG format, 24-bit color, and at least 32x32 pixels in size. If the dimensions are not multiples of 32, MilsGen will automatically crop the available area to the top left corner. 
 Keep in mind that each pixel corresponds to one stud in the output! That is, something that may seem like a moderately large image on the screen (say, 1024x768 pixels) will result in 768 modules, over 8x6 meters in size. Rescale your input images using any of the many freeware image editing and viewing programs.
 2. Enter the input terrain image
 Simply enter the full name (with extension) of the input image you prefer to use. It should comply with the rules mentioned earlier. If you just hit Enter, the default name milsgen.png will be used, which already exists in the original ZIP as an example.
@@ -162,7 +162,7 @@ Depending upon your desired terrain height MILSGen may generate files with many 
 The reduction is well worth the time. The initial piece count on the 520x520x180p CERES Map was above 467k pieces which could be reduced to about 141k! (Reduction from 21.5MB file size to 6.5MB)
 
 ### Color Change
-MILSGen only uses green pieces. Use your LCAD-Tool to change the color. If you generate a very large terrain you may use a text editor to globally change all second values in each line from 10 (green) to your desired one. ([LDR Colour Definitions](https://www.ldraw.org/article/547.html) may be helpful for this.)
+MILSGen only uses green pieces. Use your LCAD-Tool to change the color. If you generate a very large terrain you may use a text editor to globally change all second values in each line from 10 (green) to your desired one. ([LDR Color Definitions](https://www.ldraw.org/article/547.html) may be helpful for this.)
 
 ### General
 
@@ -174,16 +174,16 @@ Delete Modules from the .mpd file that won’t show in your Render.
 ## F.A.Q.
 
 #### Why php for the Stitcher?
-This was basically just a small thing I wrote late at night at a fast-paced weekend. As php is one of my most uses languages it was used to get this done.
+This was basically just a small thing I wrote late at night at a fast-paced weekend. As php is one of my most used languages it was used to get this done.
 
 #### MilsGen won’t generate my large Landscape, why?
-A) Make sure the filename contains only ASCII Symbols. Milsgen does not like whitespaces and funky characters.
-B) Your landscape is too big. MilsGen only generates landscapes up to 832x3168 studs/pixels (A1 to Z99).
+1. Make sure the filename contains only ASCII Symbols. Milsgen does not like whitespaces and funky characters.
+2. Your landscape is too big. MilsGen only generates landscapes up to 832x3168 studs/pixels (A1 to Z99).
 
 #### My Editor can’t open the large .mpd
-A) Add more RAM
-B) Optimize your Modules **before** the .mpd stitching for a lesser piece count.
-C) Generate lower terrains. Your height may result in a ridiculous piece count.
+1. Add more RAM
+2. Optimize your Modules **before** the .mpd stitching for a lesser piece count.
+3. Generate lower terrains. Your height may result in a ridiculous piece count.
 
 #### Can I submit changes to the Stitcher?
 Sure, fork the code and make a request! Help is always welcome
@@ -191,4 +191,6 @@ Sure, fork the code and make a request! Help is always welcome
 #### Where can I show my virtual support?
 You may follow Unitron Galactic on [Instagram](https://www.instagram.com/unitron_galactic/) or [Flickr](https://www.flickr.com/people/185934740@N06/).
 
+#### Will there be more (and better) terraforming tools?
+Maybe. The whole thing sparked my interest and there are a lot of things that could be improved and a lot of features a real terrain generator should have that this workflow can’t cover. Don’t expect anything soon.
 
